@@ -2,7 +2,7 @@ import style from './Notification.module.css';
 import PropTypes from 'prop-types';
 
 function Notification({ message }) {
-  return <p>{message}</p>;
+  return <p className={style.notificationText}>{message}</p>;
 }
 
 Notification.propTypes = {
